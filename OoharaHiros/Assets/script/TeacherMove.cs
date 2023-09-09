@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using static UnityEngine.GraphicsBuffer;
 
+
 public class TeacherMove : MonoBehaviour
 {
     //GameObjectで追尾するターゲットの読み込み
