@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 489034279}
   - component: {fileID: 489034281}
   - component: {fileID: 489034280}
+  - component: {fileID: 489034282}
   m_Layer: 5
   m_Name: HPBarCurrent
   m_TagString: Untagged
@@ -260,7 +261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -409, y: 235}
+  m_AnchoredPosition: {x: -409.7, y: 235}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &489034280
@@ -301,6 +302,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489034278}
   m_CullTransparentMesh: 1
+--- !u!114 &489034282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489034278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de76d81cccef90e428a381fadca7e4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +647,6 @@ GameObject:
   - component: {fileID: 1499707102}
   - component: {fileID: 1499707104}
   - component: {fileID: 1499707105}
-  - component: {fileID: 1499707106}
   m_Layer: 0
   m_Name: start
   m_TagString: Untagged
@@ -742,19 +755,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!135 &1499707106
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499707101}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 10
-  m_Center: {x: -0.5, y: 0, z: 0}
 --- !u!1 &1824349893
 GameObject:
   m_ObjectHideFlags: 0
