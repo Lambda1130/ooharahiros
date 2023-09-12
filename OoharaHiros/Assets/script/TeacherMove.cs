@@ -23,5 +23,7 @@ public class TeacherMove : MonoBehaviour
     {
        transform.position = Vector2.MoveTowards(transform.position, target.transform.position, 2 * Time.deltaTime);
 
+       
+
     }
 }
