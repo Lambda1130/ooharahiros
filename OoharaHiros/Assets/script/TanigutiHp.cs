@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class EnemyAttack : MonoBehaviour
+public class TanigutiHp : MonoBehaviour
 {
+    public int life= 100;
+
     // Start is called before the first frame update
     void Start()
     {
