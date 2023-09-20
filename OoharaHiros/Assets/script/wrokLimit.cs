@@ -6,8 +6,8 @@ public class wrokLimit : MonoBehaviour
 {
     [SerializeField] float speed;
     //í«â¡Å@XÇ∆YÇÃè„å¿
-    float xLimit = 8.5f;
-    float yLimit = 4.5f;
+    float xLimit = 39.0f;
+    float yLimit = 20.0f;
 
     void Update()
     {
