@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8580995683608585560}
   - component: {fileID: 8580995683608585561}
   m_Layer: 0
-  m_Name: kougeki
+  m_Name: attackPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
