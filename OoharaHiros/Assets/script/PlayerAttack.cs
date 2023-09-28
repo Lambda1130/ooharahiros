@@ -7,6 +7,7 @@ using static UnityEngine.GraphicsBuffer;
 public class PlayerAttack : MonoBehaviour
 {
     GameObject enemy1;
+    
 
     private void Start()
     {
@@ -18,12 +19,17 @@ public class PlayerAttack : MonoBehaviour
 
 
 
-        if(transform.position.x<-5.0f)
-        {
+      
+      
+
+       
+    }
+    void OnCollionEnter(Collider collider)
+    {
+        if(collider.gameObject)
+        { 
             Destroy(enemy1);
         }
 
-
-       
     }
 }
