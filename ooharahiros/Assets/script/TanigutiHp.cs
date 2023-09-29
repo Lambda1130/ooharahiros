@@ -16,7 +16,7 @@ public class TanigutiHp : MonoBehaviour
     void Start()
     {
         //Slider‚ğ–ƒ^ƒ“‚É‚·‚éB
-        slider.value = 1;
+        slider.value = 100;
         //Œ»İ‚ÌHP‚ğÅ‘åHP‚Æ“¯‚¶‚ÉB
         currentHp = maxHp;
         Debug.Log("Start currentHp : " + currentHp);
