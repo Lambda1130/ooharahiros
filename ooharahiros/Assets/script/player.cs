@@ -5,7 +5,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class player : MonoBehaviour
 {
-    private float speed = 0.005f;
+    private float speed = 0.05f;
 
     void Start()
     {
